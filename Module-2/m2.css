@@ -1,12 +1,9 @@
-<style>
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
-</style>
-
 *{
     margin: 0;
     padding: 0;
 }
 .content {
+    font-family: 'Playfair Display', serif;
     max-width: 900px;
     margin: 0, auto;
     font-family: Playfair Display;
