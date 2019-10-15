@@ -1,0 +1,57 @@
+*{
+    margin: 0 0;
+}
+.body {
+width: 1000px; 
+font-family: 'Playfair Display', serif;   
+padding: 140px;
+}
+.header {
+
+
+}
+.menu__item {
+display: inline-block;
+margin-left: 120px;
+margin-bottom: 100px;
+}
+.menu__link {
+text-decoration: none;
+}
+.menu__link:hover {
+color: blue;
+}
+.content {
+    display: inline-block;
+    margin: 20px 30px;
+}
+.photo {
+width: 420px;
+}
+.signature {
+color: lightgrey;
+margin: 15px 0;
+}
+.article__header {
+color: grey;
+font-size: 30px;
+margin: 15px 0;
+}
+.text {
+width: 420px;
+color: grey;
+text-align: justify;
+}
+.button {
+height: 35px;
+width: 120px;
+background-color: white;
+color: black;
+position: relative;
+left: 42%;
+margin-top: 20px;
+}
+.button:hover {
+background-color: grey;
+color: white;
+}
