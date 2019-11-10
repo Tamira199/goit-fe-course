@@ -2,7 +2,7 @@
     font-family: 'Roboto', serif; 
     max-width: 1650px;
     margin: 0;
-    padding: 38px 270px;
+    padding: 38px 200px;
 }
 .clearfix::after {
     display: table;
@@ -36,6 +36,7 @@ float: right;
 .menu__item:not(:last-child) {
     margin-right: 30px;
 }
+
 .menu__link {
     text-decoration: none;
     font-weight: bold;
@@ -75,7 +76,7 @@ padding: 0;
     font-size: 18px;
    margin-top: 30px;
 }
-.product_item:not(:last-child) {
+.product_item:not(:nth-child(4n)) {
     margin-right: 30px;
 }
 .product_logo {
