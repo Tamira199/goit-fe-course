@@ -1,0 +1,151 @@
+.body {
+    font-family: 'Roboto', serif; 
+    max-width: 1650px;
+    margin: 0;
+    padding: 38px 270px;
+}
+.clearfix::after {
+    display: table;
+    content: '';
+    clear: both;
+}
+/*.site_logo {
+    
+}
+.logo {
+
+}*/
+.menu {
+margin: 0;
+padding: 0;
+width: 473px;
+font-size: 11px;
+float: right;
+}
+/*.navigation {
+
+}
+*/
+.menu__item {
+    list-style: none;
+  float: left;
+}
+.menu__item:first-child{
+    margin-right: 456px;
+}
+.menu__item:not(:last-child) {
+    margin-right: 30px;
+}
+.menu__link {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+.menu__link:hover {
+    color: rgba(26,188,156,1);
+}
+/*.shop {
+
+}*/
+.title {
+text-align: center;
+font-size: 48px;
+color: #515151;
+margin-top: 100px;
+}
+.title:after {
+    content:"";
+    display: block;
+    width: 160px;
+    height: 8px;
+    background-color: #1abc9c;
+    margin: 30px auto 90px;
+}
+.product_list {
+padding: 0;
+}
+.product_item {
+    list-style: none;
+    float: left;
+    width: 255px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color:#323232;
+    font-size: 18px;
+   margin-top: 30px;
+}
+.product_item:not(:last-child) {
+    margin-right: 30px;
+}
+.product_logo {
+float:right;
+}
+.product_name {
+    height: 40px;
+    width: 185px;
+    float:left;
+    padding-left: 15px;
+}
+.product_item:hover .product_name {
+background-color: #1abc9c;
+}
+.product_item:hover .price {
+    background-color: #7fd9c7;
+}
+.price {
+width: 45px;
+padding-left: 10px;
+height: 40px;
+background-color: #8c8c8c;
+float:right; 
+}
+.news {
+color:#555252;
+}
+.news_list {
+    padding: 0;  
+}
+.news_item {
+    list-style: none;
+    float: left;
+    width: 350px;
+}
+.news_item:not(:last-child) {
+    margin-right: 30px;
+}
+/*.news_logo {
+
+}*/
+.news_name {
+font-size: 18px;
+}
+.news_name:after {
+    content:"";
+    display: block;
+    width: 135px;
+    height: 4px;
+    background-color: #1abc9c;
+    margin: 15px 0 25px;
+}
+.news_text {
+font-size: 14px;
+margin: 20px auto;
+text-justify: auto;
+}
+.button {
+font-size: 16px;
+background-color: #4ec6ab;
+color: white;
+width: 160px;
+height: 50px;
+border-radius: 3%;
+border: none;
+margin-bottom: 80px;
+}
+.center {
+    height: 40px;
+    line-height: 40px;   
+
+}
+
