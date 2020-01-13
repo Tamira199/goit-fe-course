@@ -10,8 +10,8 @@ html {
 
 body {
     font-family: "Roboto", sans-serif;
-    color: #999999;
     font-size: 15px;
+    color: #999999;
     line-height: 24px;
 }
 
@@ -22,8 +22,8 @@ body {
 }
 
 .container {
-    width: 1200px;
     margin: 0 auto;
+    width: 1200px;
 }
 
 .header {
@@ -48,11 +48,11 @@ body {
 }
 
 .menu_item::after {
+    margin: 0 auto;
     display: block;
     width: 50px;
     height: 3px;
     content: "";
-    margin: 0 auto;
 }
 
 .menu_item:hover:after {
@@ -133,10 +133,10 @@ body {
 }
 
 .features_list_item {
+    margin-bottom: 100px;
     flex-basis: 380px;
     flex-grow: 0;
     flex-shrink: 0;
-    margin-bottom: 100px;
 }
 
 .content_icon {
@@ -250,10 +250,10 @@ body {
 .team_occupation {
     font-family: "Roboto", sans-serif;
     font-size: 14px;
-    line-height: 24px;
     font-weight: 300;
     font-style: italic;
     text-align: center;
+    line-height: 24px;
 }
 
 .card {
@@ -342,20 +342,25 @@ body {
 }
 
 .subscribe_form input {
-    width: 230px;
-    height: 40px;
-    padding: 14px;
     font-weight: 300;
     font-family: "Roboto", sans-serif;
     font-style: italic;
     font-weight: 300;
     font-size: 15px;
+    width: 230px;
+    height: 40px;
+    padding: 14px;
     text-align: 24px;
     border: 1px solid #e5e5e5;
     opacity: 0.5;
 }
 
 .subscribe_form button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+    text-transform: uppercase;
     border: none;
     margin: 0 auto;
     padding: 0;
@@ -363,9 +368,4 @@ body {
     height: 40px;
     background-color: #95e1d3;
     color: white;
-    font-family: "Montserrat", sans-serif;
-    font-weight: bold;
-    font-size: 14px;
-    cursor: pointer;
-    text-transform: uppercase;
 }
