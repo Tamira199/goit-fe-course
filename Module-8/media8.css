@@ -1,0 +1,198 @@
+@media (min-width: 320px) and (max-width: 767px) {
+    .container {
+        max-width: 320px;
+    }
+    .banner {
+        min-width: 320px;
+        background-size: cover;
+    }
+    .banner_info {
+        padding-bottom: 138px;
+    }
+    .signup_form {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        padding-top: 20px;
+        padding-bottom: 120px;
+    }
+    .logo {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 26px;
+    }
+    .main_title {
+        padding-left: 30px;
+        padding-right: 30px;
+        font-size: 30px;
+        line-height: 36px;
+    }
+    .sub_title {
+        padding-left: 50px;
+        padding-right: 50px;
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .section_title {
+        margin-top: 65px;
+        margin-bottom: 20px;
+        padding-left: 29px;
+        padding-right: 29px;
+    }
+    .partners_list {
+        display: flex;
+        flex-direction: column;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    footer {
+        margin-bottom: 58px;
+    }
+    .partner_one {
+        order: 0;
+    }
+    .partner_two {
+        order: 1;
+    }
+    .partner_three {
+        order: 0;
+    }
+    .partner_four {
+        order: 1;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1439px) {
+    .container {
+        width: 492px;
+    }
+    .banner {
+        background-image: url(./img/banner.jpg);
+        background-size: cover;
+    }
+    .banner_info {
+        padding-bottom: 234px;
+    }
+    .header {
+        width: 660px;
+        margin: 0 auto;
+    }
+    .nav {
+        display: flex;
+        min-height: 65px;
+        padding-top: 50px;
+        align-items: baseline;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+        text-align: center;
+    }
+    .logo {
+        display: flex;
+        font-size: 20px;
+        line-height: 24px;
+        justify-content: flex-start;
+    }
+    .signup_form {
+        display: flex;
+        justify-content: flex-end;
+        justify-content: space-between;
+    }
+    .main_title {
+        margin-top: 160px;
+        margin-bottom: 40px;
+        font-size: 52px;
+        line-height: 62px;
+    }
+    .sub_title {
+        font-size: 24px;
+        line-height: 29px;
+        margin-bottom: 34px;
+    }
+    .section_title {
+        margin-top: 72px;
+        padding-bottom: 30px;
+    }
+    .partners_list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-bottom: 40px;
+    }
+    .partners_list_item {
+        position: relative;
+        width: 220px;
+    }
+    .footer {
+        margin-bottom: 40px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .container {
+        max-width: 942px;
+    }
+    .banner {
+        background-size: cover;
+        background-image: url(./img/banner.jpg);
+    }
+    .banner_info {
+        padding-bottom: 234px;
+    }
+    .header {
+        margin: 0 auto;
+        max-width: 940px;
+        margin-bottom: 140px;
+    }
+    .nav {
+        display: flex;
+        min-height: 65px;
+        padding-top: 46px;
+        align-items: baseline;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+        align-items: baseline;
+    }
+    .logo {
+        display: flex;
+        font-size: 20px;
+        line-height: 24px;
+        justify-content: flex-start;
+    }
+    .signup_form {
+        display: flex;
+        justify-content: flex-end;
+        justify-content: space-between;
+    }
+    .main_title {
+        margin: 0 auto;
+        padding-left: 210px;
+        padding-right: 210px;
+        margin-top: 140px;
+        font-size: 52px;
+        line-height: 62px;
+    }
+    .sub_title {
+        font-size: 24px;
+        line-height: 29px;
+    }
+    .partners {
+        padding-top: 70px;
+    }
+    .section_title {
+        font-size: 22px;
+        line-height: 26px;
+        padding-bottom: 32px;
+    }
+    .partners_list {
+        display: flex;
+        justify-content: space-around;
+        padding-bottom: 40px;
+    }
+    .partners_list_item {
+        position: relative;
+        width: 220px;
+    }
+    .footer {
+        margin-bottom: 73px;
+    }
+}
