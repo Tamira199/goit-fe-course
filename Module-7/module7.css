@@ -105,6 +105,10 @@ html {
     background-position-y: 106%;
 }
 
+.objects {
+    margin-bottom: 102px;
+}
+
 .objects_title {
     margin: 0 auto;
     font-family: "Montserrat", sans-serif;
@@ -125,22 +129,6 @@ html {
     font-size: 16px;
     color: #777777;
     text-align: center;
-}
-
-.services {
-    margin-bottom: 80px;
-    margin-top: 0;
-    font-family: "Titillium Web", sans-serif;
-    text-align: center;
-    font-weight: 300;
-    font-style: italic;
-    font-size: 16px;
-    line-height: 19px;
-    color: rgb(119, 119, 119);
-}
-
-.objects {
-    margin-bottom: 102px;
 }
 
 .objects_list {
@@ -255,19 +243,6 @@ html {
     margin-right: 0;
 }
 
-textarea {
-    font-family: "Montserrat";
-    width: 459px;
-    height: 214px;
-    display: flex;
-    font-size: 14px;
-    font-weight: bold;
-    color: #bbbbbb;
-    text-transform: uppercase;
-    padding: 20px;
-    resize: none;
-}
-
 .send_message_form input[type="button"] {
     font-family: "Montserrat";
     width: 240px;
@@ -282,6 +257,19 @@ textarea {
     border-style: none;
     cursor: pointer;
     margin-top: 30px;
+}
+
+textarea {
+    font-family: "Montserrat";
+    width: 459px;
+    height: 214px;
+    display: flex;
+    font-size: 14px;
+    font-weight: bold;
+    color: #bbbbbb;
+    text-transform: uppercase;
+    padding: 20px;
+    resize: none;
 }
 
 .button {
