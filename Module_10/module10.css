@@ -158,10 +158,6 @@ body {
     -ms-flex-align: center;
 }
 
-.section {
-    margin-bottom: 90px;
-}
-
 .section__list {
     display: -webkit-box;
     display: -ms-flexbox;
